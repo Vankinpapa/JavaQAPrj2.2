@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         int initScore = 555;
-        int putScore = 5200;
+        int putScore = 300;
         int bonus = putScore/100;
 
-        if ((initScore + putScore) > 1000) {
+        if (putScore > 1000) {
             int total = initScore + putScore + bonus;
             System.out.println("Итоговая сумма вышла: " + total + ". Бонусных баллов: " + bonus);
         } else {
