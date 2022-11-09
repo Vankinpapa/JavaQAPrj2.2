@@ -3,7 +3,7 @@ public class Main {
 
         int initScore = 555;
         int putScore = 300;
-        int bonus = putScore/100;
+        int bonus = putScore / 100;
 
         if (putScore > 1000) {
             int total = initScore + putScore + bonus;
